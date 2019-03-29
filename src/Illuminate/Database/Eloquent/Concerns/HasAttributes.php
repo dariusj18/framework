@@ -467,7 +467,7 @@ trait HasAttributes
      * @param  mixed  $value
      * @return mixed
      */
-    protected function castAttribute($key, $value)
+    public function castAttribute($key, $value)
     {
         if (is_null($value)) {
             return $value;
